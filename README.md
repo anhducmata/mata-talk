@@ -1,10 +1,4 @@
-# Mata Talk - AI English Learning### 1. Voice Interaction Pipeline
-
-#### English Learning Audio Flow
-```
-User Speech → Swift App → LiveKit → Python Agent
-(English Practice) (Microphone) (WebRTC) (AI English Tutor)
-``` Architecture
+# Mata Talk - AI English Learning System
 
 This repository contains both Python-based AI agent backend (`mata-talk-python`) and Swift-based client applications (`mata-talk-swift`) that work together to create a complete AI English learning conversation system using LiveKit's real-time communication platform.
 
@@ -39,10 +33,10 @@ The system consists of three main layers:
 
 ### 2. Voice Interaction Pipeline
 
-#### Audio Capture & Processing
+#### English Learning Audio Flow
 ```
 User Speech → Swift App → LiveKit → Python Agent
-             (Microphone)  (WebRTC)   (STT/Deepgram)
+(English Practice) (Microphone) (WebRTC) (AI English Tutor)
 ```
 
 **Swift Client Components**:
